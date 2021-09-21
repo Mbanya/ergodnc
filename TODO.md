@@ -1,14 +1,29 @@
 # TODO 10/9
 
-[] Prepare migrations
-[] Seed the initial tags
-[] Prepare models
-[] Prepare factories
-[] Tags
+[x] Prepare migrations
+
+[x] Seed the initial tags
+
+[x] Prepare models
+
+[x] Prepare factories
+
+[x] Prepare resources
+
+[x] Tags
+
     - Routes
     - Controller
     - Tests
-[] Offices
-    - List Offices
-    - Read Office
-    - Create Office
+
+
+
+#TODO NEXT
+
+[] Filter the offices returned
+
+[] Paginate the list of offices endpoint
+
+[] Show office endpoint
+
+[] create office endpoint
