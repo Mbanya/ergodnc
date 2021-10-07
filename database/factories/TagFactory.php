@@ -23,6 +23,7 @@ class TagFactory extends Factory
     {
         return [
             //
+            'name' => $this->faker->word
         ];
     }
 }

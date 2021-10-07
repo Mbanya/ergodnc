@@ -18,12 +18,29 @@
 
 
 
-#TODO NEXT
+# List Offices Endpoint
+[x] Show only approved and visible records
 
-[] Filter the offices returned
+[x] Filter by hosts
 
-[] Paginate the list of offices endpoint
+[x] Filter by users
 
-[] Show office endpoint
+[x] Include tags, images and user
 
-[] create office endpoint
+[x] Show count of previous reservations
+
+[x] Paginate
+
+[x] Sort by distance if lng/lat provided. Otherwise, the oldest first
+
+## Show office endpoint
+[] Show count of previous reservations
+
+[] Include tags,images and user
+
+## Create office endpoint
+[] Host must be authenticated and email verified
+
+[] Cannot fill `approval_status`
+
+[] Attach photos to offices endpoint
