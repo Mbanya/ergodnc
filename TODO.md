@@ -34,9 +34,9 @@
 [x] Sort by distance if lng/lat provided. Otherwise, the oldest first
 
 ## Show office endpoint
-[] Show count of previous reservations
+[x] Show count of previous reservations
 
-[] Include tags,images and user
+[x] Include tags,images and user
 
 ## Create office endpoint
 [] Host must be authenticated and email verified

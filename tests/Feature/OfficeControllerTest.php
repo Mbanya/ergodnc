@@ -139,4 +139,17 @@ class OfficeControllerTest extends TestCase
 
 
     }
+
+    public function test_it_shows_office()
+    {
+        $office = Office::factory()
+            ->create();
+        $tag = Tag::factory()->create();
+        $office->tags()->attach($tag);
+        $office->images()->create(['path'=>'image.jpg']);
+        $response = $this->get('/api/offices/'.$office->id);
+
+        $response->assertOk();
+        $response->dump();
+    }
 }
